@@ -46,6 +46,13 @@ a {
     0 32px 32px rgba(0, 0, 0, 0.15),
     0 64px 64px rgba(0, 0, 0, 0.15); */
 }
+
+@media screen and (max-width: 768px) {
+ .card {
+  padding: 2em 2.5em;
+  
+  
+ } }
 .note::after {
   content: '';
   width: 100%;
@@ -122,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 400;
-  margin: 0 0 30px 0; }
+  margin: 0 0 40px 0; }
 
 figure {
   margin-bottom: 2.5em;
@@ -154,7 +161,9 @@ figure {
 #colorlib-page {
   width: 100%;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  background-image: linear-gradient(to right top, #e7a7cb, #c777b9, #bcaac1, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #a5d7f7, #a6e5fc, #41dfff, #46eefa, #5ffbf1);
+ }
 
 #colorlib-aside {
   padding-top: 3em;
@@ -172,6 +181,8 @@ figure {
   @media screen and (max-width: 768px) {
     #colorlib-aside {
       width: 300px;
+      height: 100vh;
+     
       -moz-transform: translateX(-300px);
       -webkit-transform: translateX(-300px);
       -ms-transform: translateX(-300px);
@@ -280,14 +291,19 @@ figure {
     color: rgba(0, 0, 0, 0.5);
     padding: 0 20px;
     width: 100%;
-    height: 250px;
-    
+    /* background-color: #000; */
+    /* height: 100vh; */
     
    }
     @media screen and (max-width: 768px) {
       #colorlib-aside .colorlib-footer {
         position: relative;
-        bottom: 0; } }
+        bottom: 0;
+    height: 300px;
+    /* background-color: #000; */
+    overflow: hidden;
+
+      } }
     #colorlib-aside .colorlib-footer span {
       display: block; }
     #colorlib-aside .colorlib-footer ul {
@@ -319,7 +335,12 @@ figure {
   @media screen and (max-width: 768px) {
     #colorlib-main {
       width: 100%;
-      padding: 0 1em; } }
+       } }
+  
+       #padding{
+        padding-left: 18px;
+        padding-right: 18px;
+       }
 
 #colorlib-hero {
   min-height: 500px;
@@ -339,7 +360,7 @@ figure {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom center;
-        min-height: 400px;
+        min-height: 600px;
         position: relative; }
     #colorlib-hero .flexslider .flex-control-nav {
       bottom: 20px;
@@ -514,9 +535,9 @@ body.offcanvas {
 .heading-meta {
   margin-bottom: 15px;
   display: block;
-  font-size: 13px;
+  font-size: 14px;
   text-transform: uppercase;
-  color: #878585;
+  color: #b548f3;
   font-weight: 500;
   letter-spacing: 5px; }
 
