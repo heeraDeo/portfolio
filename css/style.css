@@ -49,7 +49,7 @@ a {
 
 @media screen and (max-width: 768px) {
  .card {
-  padding: 2em 2.5em;
+  padding: 1em 4em;
  } 
 
  .txt {
@@ -169,7 +169,7 @@ figure {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background-image: linear-gradient(to right top, #e7a7cb, #c777b9, #bcaac1, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #87cefb, #d6f0f9, #41dfff, #091dfc, #5ffbf1);
+  background-image: linear-gradient(to right top, #e7a7cb, #c777b9, #bcaac1, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #87cefb, #d6f0f9, #41dfff, #8d95f4, #5ffbf1);
  }
 
 #colorlib-aside {
